@@ -26,6 +26,15 @@
     
 }
 
+.img{
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    align-content: center;
+    background-image: url(../IMAGENES/musica.jpg);
+    transform: translate(375px, 75px);
+}
 .h2main:hover{
     font-size: 50px;
 
