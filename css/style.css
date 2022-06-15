@@ -23,11 +23,11 @@
 
 .h2main{
     text-align: center;
+    color: aquamarine;
     
 }
 
 .img{
-    object-fit: contain;
     width: 50%;
     height: 50%;
     align-items: center;
@@ -35,6 +35,11 @@
     background-image: url(../IMAGENES/musica.jpg);
     transform: translate(375px, 75px);
 }
+
+.img:hover{
+    background-image: url(../IMAGENES/corazon.webp);
+}
+
 .h2main:hover{
     font-size: 50px;
 
@@ -43,11 +48,12 @@
 .parrafo{
     text-align: center;
     transform: translate(0px, 5px);
+    color: aliceblue;
 }
 
 .main{
-    height: 75vh;
-    background-color: darkcyan;
+      height: 75vh;
+    background-image: linear-gradient(to bottom, black, violet);
 }
 
 .footer{
