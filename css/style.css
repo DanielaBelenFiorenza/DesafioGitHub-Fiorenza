@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.h1index{
+    text-align: center;
+    color:azure;
+}
+.h1index:hover{
+    color: rgb(165, 42, 140);
+}
+
+.h2main{
+    text-align: center;
+    
+}
+
+.h2main:hover{
+    font-size: 50px;
+
+}
+
+.parrafo{
+    text-align: center;
+    transform: translate(0px, 5px);
+}
+
+.main{
+    height: 75vh;
+    background-color: darkcyan;
+}
+
+.footer{
+    height: 10vh;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
